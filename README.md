@@ -18,13 +18,18 @@ SMS бомбер с приятным веб-интерфейсом.
     ```
 5. Если в вашем браузере не открылся веб-интерфейс, перейдите по ссылке в консоли.
 
-## На Android
-1. Установите [Termux](https://play.google.com/store/apps/details?id=com.termux&hl=ru)
-2. Введите следующие команды поочерёдно для установки необходимых компонентов:
+## На Android/IOS
+1. Установите [Termux](https://play.google.com/store/apps/details?id=com.termux&hl=ru) или [Ish Shell](https://apps.apple.com/us/app/ish-shell/id1436902243)
+2. Введите следующие команды поочерёдно для установки необходимых компонентов(Android):
     ```bash
     pkg install python
     pkg install git
     ```
+   Введите следующие команды поочерёдно для установки необходимых компонентов(IOS):
+    ```bash
+    pip install b0mb3r -U
+    ```
+    
 3. Выполните действия, начиная с пункта 3 из инструкции по установке на Windows.
 
 # Обновление
